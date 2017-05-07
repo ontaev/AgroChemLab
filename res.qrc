@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>png/FolderOpened_Yellow.png</file>
+        <file>png/Shutdown_Box_Red.png</file>
+        <file>res/russian.ts</file>
+        <file>res/russian.qm</file>
+        <file>png/Magnifier2.png</file>
+        <file>png/Plus__Orange.png</file>
+        <file>png/1406827132_ordering.png</file>
+        <file>png/1406827353_icontexto-green-01.png</file>
+    </qresource>
+</RCC>

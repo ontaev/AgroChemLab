@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReportDialog</class>
+ <widget class="QDialog" name="ReportDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Reports</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTreeWidget" name="treeWidget">
+     <column>
+      <property name="text">
+       <string>Отчеты</string>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>Содержание</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Щелочногидролизуемого азота</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Подвижного фосфора</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Обменного калия</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Подвижной серы</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Органического вещества</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Кислотность-щелочность</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Обменного кальция</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Обменного магния</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Цинка</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Меди</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Молибдена</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Бора</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Гранулометрический состав</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>РЕКО</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Кадмия</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Свинца</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ртути</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Мышьяка</string>
+       </property>
+      </item>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Тип отчета</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Субъект отчета</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QComboBox" name="tipCombo">
+       <item>
+        <property name="text">
+         <string>Не указан</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>СМО</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Район</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="subjCombo"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Report</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="closeButton">
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
